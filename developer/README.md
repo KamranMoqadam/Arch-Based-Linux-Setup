@@ -1,32 +1,30 @@
 # Developer Tools Installer
 
-This bash script streamlines the installation process for various programming languages, modules, and tools required for development purposes on Arch-based Linux systems. Below is a breakdown of the installed software categories:
+This bash script simplifies the installation process of various programming languages, modules, and development tools on Arch-based Linux systems. Here's a detailed breakdown of the installed software:
 
 ## Programming Languages
 ### Node.js
-- `nodejs`, `npm`: Node.js for JavaScript runtime environment.
+- `nodejs`, `npm`: JavaScript runtime environment.
 
 ### Python
-- `python`, `ipython`, `python-pip`, `virtualbox`: Python interpreter, package manager, and virtualization tool.
+- `python`, `ipython`, `python-pip`, `virtualbox`: Python interpreter, IPython shell, package manager, and virtualization tool.
 
 #### Python Modules
 - Essential Python modules including `setuptools`, `virtualenv`, `django`, `flask`, `Flask-RESTful`, `fastapi`, `djangorestframework`, `sanic`, `PyJWT`, etc.
 
 #### Servers and Utilities
-- `gunicorn`, `uvicorn[standard]`: WSGI and ASGI servers.
-- `pyfiglet`: ASCII art font generation.
-- `shecan`: Tool for bypassing sanctions.
-
-### Data Science
-- `pandas`, `numpy`, `matplotlib`, `tensorflow`, `rosetta`: Data manipulation and machine learning libraries.
+- `gunicorn`, `uvicorn[standard]`, `pyfiglet`, `shecan`: Web servers, utilities, and ASCII art font generation.
 
 ### Web Scraping
 - `selenium`, `Scrapy`, `beautifulsoup4`: Tools for web scraping.
 
+### Data Science
+- `pandas`, `numpy`, `matplotlib`, `tensorflow`, `rosetta`: Data manipulation and machine learning libraries.
+
 ### Telegram-Bot
 - `python-telegram-bot`, `pyTelegramBotAPI`: Libraries for building Telegram bots.
 
-### GUI Applications
+### GUI Applications And Tools
 - `PyQt5`, `PyQt6`, `TK`, `Kivy`, `pyqtgraph`, `pyqt5-tools`, `pyqt6-tools`, `PyQtChart`: GUI frameworks and tools.
 
 ### Calendar
@@ -52,5 +50,8 @@ This bash script streamlines the installation process for various programming la
 
 ### Fake Data Generation
 - `model-bakery`, `Faker`: Tools for generating fake data.
+
+### IDEs and Text Editors
+- `micro`, `notepadqq`, `kate`, `deepin-editor`, `sublime-text`, `code`: Development IDEs and text editors.
 
 Feel free to execute this script on your Arch-based Linux system to automate the installation of these development tools and libraries.

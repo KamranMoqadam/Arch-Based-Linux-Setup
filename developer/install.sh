@@ -52,3 +52,6 @@ sudo pip install -U pygame --break-system-packages
 
 ### Fake Data Generation
 sudo pip install -U model-bakery Faker --break-system-packages
+
+## IDEs and Text Editors
+sudo pacman -Sq micro notepadqq kate deepin-editor sublime-text code --break-system-packages
